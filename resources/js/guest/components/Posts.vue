@@ -16,6 +16,7 @@
 
                     </ul>
                 </div>
+                <router-link :to="{ name: 'single-post', params: { slug: post.slug } }">Visualizza Post</router-link>
             </li>
         </ul>
 
@@ -55,19 +56,19 @@ export default {
         .post-container {
             background-color: #aaa;
             border-radius: 15px;
-            padding: 15px;
+            padding: 30px;
             margin-top: 20px;
             h3 {
                 text-align: center;
             }
             p {
-                padding: 15px;
+                padding: 15px 0;
             }
             .categories {
-                padding: 15px;
+                padding: 15px 0;
             }
             .tags {
-                padding: 15px;
+                padding: 15px 0;
                 ul {
                     display: inline-flex;
                     list-style: none;

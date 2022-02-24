@@ -4,7 +4,7 @@
         <nav>
             <ul>
                 <li>
-                    <router-link :to="{name:home}">Home</router-link>
+                    <router-link :to="{name:'home'}">Home</router-link>
                 </li>
                 <li>
                     <a href="/admin/home">Dashboard</a>
