@@ -8,6 +8,7 @@ use App\Post;
 use Illuminate\Support\Str;
 use App\Category;
 use App\Tag;
+use Illuminate\Support\Facades\Storage;
 
 class PostController extends Controller
 {
@@ -17,6 +18,7 @@ class PostController extends Controller
         "published" => "sometimes|accepted",
         'category_id' => 'nullable|exists:categories,id',
         "tags" => "nullable|exists:tags,id",
+        "image"=> "nullable|image|max:2048|mimes:jpeg,bpm,png,jpg",
     ];
 
     /**
@@ -61,12 +63,18 @@ class PostController extends Controller
         $newPost->published = isset($data['published']);
         
         $newPost->slug = $this->getSlug($newPost->title);
+        
+        if (isset($data['image'])) {
+            $path_image = Storage::put('uploads', $data['image']);
+            $newPost->image = $path_image;
+        }
 
         $newPost->save();
 
         if (isset($data["tags"])) {
             $newPost->tags()->sync($data["tags"]);
         }
+
 
         return redirect()->route("posts.show", $newPost->id);
     }
@@ -121,6 +129,12 @@ class PostController extends Controller
         $post->fill($data);
         $post->published = isset($data["published"]);
 
+        if (isset($data['image'])) {
+            Storage::delete($post->image);
+            $path_image = Storage::put('uploads', $data['image']);
+            $post->image = $path_image;
+        }
+
         $post->save();
 
         if (isset($data["tags"])) {
@@ -138,6 +152,10 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
+        if ($post->image) {
+            Storage::delete($post->image);
+        }
+        
         $post->delete();
 
         return redirect()->route("posts.index");

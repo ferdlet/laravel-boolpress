@@ -8,6 +8,11 @@
                     <div class="card-header"><h2>{{$post->title}}</h2></div>
                         
                     <div class="card-body">
+                        <div class="mb-3" >
+                            @if ($post->image)
+                                <img style="max-width: 100%;" src="{{asset("storage/{$post->image}")}}" alt="{{$post->title}}">
+                            @endif
+                        </div>
                         <div class="mb-3">
                             Stato: {{$post->published ? 'Pubblicato' : 'Bozza'}}
                         </div>

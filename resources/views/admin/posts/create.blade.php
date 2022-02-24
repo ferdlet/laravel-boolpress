@@ -9,7 +9,7 @@
 
                         <div class="card-body">
                             
-                            <form action="{{route("posts.store")}}" method="POST">
+                            <form action="{{route("posts.store")}}" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group">
                                     <label for="title">Titolo</label>
@@ -57,6 +57,29 @@
                                     <input class="form-check-input @error('published') is-invalid @enderror" type="checkbox" name="published" id="published" {{old('published') ? 'checked' : '' }}>
                                     <label class="form-check-label" for="published">Pubblicato</label>
                                     @error('published')
+                                        <div class="alert alert-danger">{{$message}}</div>
+                                    @enderror
+                                </div>
+                                <div class="mb-3" >
+                                    <p>Immagine</p>
+                                    
+                                    <img id="preview" width="100" src="">
+    
+                                    
+                                    <input type="file" id="image" name="image" onchange="PreviewImage();">
+                                    <script type="text/javascript">
+
+                                        function PreviewImage() {
+                                            var oFReader = new FileReader();
+                                            oFReader.readAsDataURL(document.getElementById("image").files[0]);
+
+                                            oFReader.onload = function (oFREvent) {
+                                                document.getElementById("preview").src = oFREvent.target.result;
+                                            };
+                                        };
+
+                                    </script>
+                                    @error('image')
                                         <div class="alert alert-danger">{{$message}}</div>
                                     @enderror
                                 </div>
