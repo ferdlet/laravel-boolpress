@@ -4,6 +4,8 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 import Home from "./pages/Home";
+import SinglePost from "./pages/SinglePost";
+
 
 const router = new VueRouter({
     mode: "history",
@@ -12,6 +14,11 @@ const router = new VueRouter({
             path: "/",
             name: "home",
             component: Home
+        },
+        {
+            path: "/posts/:slug",
+            name: "single-post",
+            component: SinglePost
         },
     ]
 });

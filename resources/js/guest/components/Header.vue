@@ -3,7 +3,12 @@
         <h2>Boolpress</h2>
         <nav>
             <ul>
-                <li><a href="/admin/home">Dashboard</a></li>
+                <li>
+                    <router-link :to="{name:home}">Home</router-link>
+                </li>
+                <li>
+                    <a href="/admin/home">Dashboard</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -27,6 +32,8 @@ header {
     nav {
         ul {
             list-style: none;
+            display: flex;
+            gap: 20px;
         }
     }
 }
