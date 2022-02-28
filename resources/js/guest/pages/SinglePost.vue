@@ -2,6 +2,9 @@
     <div>
         <div class="post-container" >
             <h3>{{post.title}}</h3>
+            <div class="image" v-if="post.image">
+                <img :src="`/storage/${post.image}`" :alt="post.image">
+            </div>
             <p>{{post.content}}</p>
             <div class="categories" v-if="post.category">
                 <strong>Categoria: </strong>
@@ -49,6 +52,15 @@ export default {
             margin-top: 20px;
             h3 {
                 text-align: center;
+            }
+            .image {
+                max-width: 100%;
+                img {
+                    max-width: 100%;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                }
             }
             p {
                 padding: 15px 0;

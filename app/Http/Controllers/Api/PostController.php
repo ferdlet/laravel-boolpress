@@ -11,12 +11,18 @@ class PostController extends Controller
     public function index()
     {
         $posts = Post::where("published", true)->with(["category", "tags"])->get();
+
         return response()->json($posts);
     }
 
     public function show($slug)
     {
         $post = Post::where("slug", $slug)->with(["category", "tags"])->first();
+
+        if (empty($post)) {
+            return response()->json(["message" => "Post not found"], 404);
+        }
+
         return response()->json($post);
     }
 }

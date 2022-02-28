@@ -7,6 +7,9 @@
                     <router-link :to="{name:'home'}">Home</router-link>
                 </li>
                 <li>
+                    <router-link :to="{name:'categories'}">Categories</router-link>
+                </li>
+                <li>
                     <a href="/admin/home">Dashboard</a>
                 </li>
             </ul>

@@ -91,10 +91,10 @@
                                         };
 
                                     </script>
-                                    @error('image')
-                                        <div class="alert alert-danger">{{$message}}</div>
-                                    @enderror
                                 </div>
+                                @error('image')
+                                    <div class="alert alert-danger">{{$message}}</div>
+                                @enderror
                                 <button type="submit" class="btn btn-primary">Modifica</button>
                             </form>
 
