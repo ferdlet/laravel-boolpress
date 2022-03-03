@@ -17,6 +17,22 @@
 
                 </ul>
             </div>
+
+            <div>
+                <h3>Commenti</h3>
+                <form @submit.prevent="addComment()">
+                    <div>
+
+                        <input type="text" id="name" placeholder="Inserisci il tuo nome" v-model="formData.name">
+                    </div>
+                    <div>
+                        <textarea id="content" rows="3" placeholder="Inserisci il commento" v-model="formData.content"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Aggiungi commento</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </template>
@@ -26,7 +42,11 @@ export default {
     name: "SinglePost",
     data() {
         return {
-            post: {}
+            post: {},
+            formData: {
+                name: '',
+                content: ''
+            }
         }
     },
     created() {
@@ -37,6 +57,9 @@ export default {
             .catch((error) => {
                 console.log(error);
             });
+    },
+    methods: () {
+        alert("Aggiunto Commento")
     }
 }
 </script>
@@ -50,6 +73,12 @@ export default {
             border-radius: 15px;
             padding: 30px;
             margin-top: 20px;
+            textarea {
+                width: 100%;
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+            }
             h3 {
                 text-align: center;
             }
