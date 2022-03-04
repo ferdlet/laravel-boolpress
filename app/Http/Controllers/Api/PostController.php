@@ -17,7 +17,7 @@ class PostController extends Controller
 
     public function show($slug)
     {
-        $post = Post::where("slug", $slug)->with(["category", "tags"])->first();
+        $post = Post::where("slug", $slug)->with(["category", "tags", "comments" => fn($query) => $query->where('approved', '1')])->first();
 
         if (empty($post)) {
             return response()->json(["message" => "Post not found"], 404);

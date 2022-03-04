@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('front');
-});
+// Route::get('/', function () {
+//     return view('front');
+// });
 
 Auth::routes();
 
@@ -23,6 +23,9 @@ Route::prefix("admin")->namespace("Admin")->middleware("auth")->group(function()
     Route::get('/home', 'HomeController@index')->name('home');
     Route::resource('posts', 'PostController');
     Route::resource('categories', 'CategoryController');
+    Route::patch('comments/{comment}', "CommentController@update")->name("comments.update");
+    Route::delete('comments/{comment}', "CommentController@destroy")->name("comments.destroy");
+
 });
 
 Route::get("{any?}", function() {

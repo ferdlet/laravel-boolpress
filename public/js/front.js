@@ -2199,9 +2199,115 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/guest/pages/SinglePost.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\resources\\js\\guest\\pages\\SinglePost.vue: Unexpected token (61:14)\n\n\u001b[0m \u001b[90m 59 |\u001b[39m             })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 60 |\u001b[39m     }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 61 |\u001b[39m     methods\u001b[33m:\u001b[39m () {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m         alert(\u001b[32m\"Aggiunto Commento\"\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 63 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 64 |\u001b[39m }\u001b[0m\n    at Parser._raise (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:476:17)\n    at Parser.raiseWithData (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:469:17)\n    at Parser.raise (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:430:17)\n    at Parser.unexpected (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:3789:16)\n    at Parser.parseParenAndDistinguishExpression (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12922:12)\n    at Parser.parseExprAtom (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12476:23)\n    at Parser.parseExprSubscripts (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12149:23)\n    at Parser.parseUpdate (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12129:21)\n    at Parser.parseMaybeUnary (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12104:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11901:61)\n    at Parser.parseExprOps (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11908:23)\n    at Parser.parseMaybeConditional (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11878:23)\n    at Parser.parseMaybeAssign (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11833:21)\n    at C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11791:39\n    at Parser.allowInAnd (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:13823:12)\n    at Parser.parseMaybeAssignAllowIn (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11791:17)\n    at Parser.parseObjectProperty (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:13258:101)\n    at Parser.parseObjPropValue (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:13291:100)\n    at Parser.parsePropertyDefinition (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:13208:10)\n    at Parser.parseObjectLike (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:13099:21)\n    at Parser.parseExprAtom (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12498:23)\n    at Parser.parseExprSubscripts (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12149:23)\n    at Parser.parseUpdate (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12129:21)\n    at Parser.parseMaybeUnary (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:12104:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11901:61)\n    at Parser.parseExprOps (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11908:23)\n    at Parser.parseMaybeConditional (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11878:23)\n    at Parser.parseMaybeAssign (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11833:21)\n    at C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11791:39\n    at Parser.allowInAnd (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:13817:16)\n    at Parser.parseMaybeAssignAllowIn (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:11791:17)\n    at Parser.parseExportDefaultExpression (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:15465:22)\n    at Parser.parseExport (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:15353:31)\n    at Parser.parseStatementContent (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:14229:27)\n    at Parser.parseStatement (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:14113:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\ferdi\\Desktop\\progetti\\EserciziAssegnatiLaravel\\laravel-boolpress\\node_modules\\@babel\\parser\\lib\\index.js:14739:25)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "SinglePost",
+  data: function data() {
+    return {
+      post: {},
+      postTags: [],
+      formData: {
+        name: '',
+        content: '',
+        post_id: null
+      },
+      commentSent: false,
+      formErrors: {}
+    };
+  },
+  methods: {
+    addComment: function addComment() {
+      var _this = this;
+
+      axios.post("/api/comments/", this.formData).then(function (response) {
+        _this.formData.name = "";
+        _this.formData.content = "";
+        _this.commentSent = true;
+      })["catch"](function (error) {
+        _this.formErrors = error.response.data.errors;
+      });
+    }
+  },
+  created: function created() {
+    var _this2 = this;
+
+    axios.get("/api/posts/".concat(this.$route.params.slug)).then(function (response) {
+      _this2.post = response.data;
+      _this2.formData.post_id = _this2.post.id;
+
+      if (_this2.post.tags.length > 0) {
+        for (var i = 0; i < _this2.post.tags.length; i++) {
+          _this2.postTags.push(_this2.post.tags[i]);
+        }
+      }
+
+      ;
+    })["catch"](function (error) {
+      _this2.$router.push({
+        name: 'page-404'
+      });
+    });
+  }
+});
 
 /***/ }),
 
@@ -2274,7 +2380,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".post-container[data-v-57a632a8] {\n  width: 1200px;\n  margin: 0 auto;\n  background-color: #aaa;\n  border-radius: 15px;\n  padding: 30px;\n  margin-top: 20px;\n}\n.post-container textarea[data-v-57a632a8] {\n  width: 100%;\n  margin-top: 15px;\n  margin-bottom: 15px;\n}\n.post-container h3[data-v-57a632a8] {\n  text-align: center;\n}\n.post-container .image[data-v-57a632a8] {\n  max-width: 100%;\n}\n.post-container .image img[data-v-57a632a8] {\n  max-width: 100%;\n  margin-top: 15px;\n  margin-bottom: 15px;\n}\n.post-container p[data-v-57a632a8] {\n  padding: 15px 0;\n}\n.post-container .categories[data-v-57a632a8] {\n  padding: 15px 0;\n}\n.post-container .tags[data-v-57a632a8] {\n  padding: 15px 0;\n}\n.post-container .tags ul[data-v-57a632a8] {\n  display: inline-flex;\n  list-style: none;\n  gap: 10px;\n}\n.post-container .tags ul .tag[data-v-57a632a8] {\n  padding: 5px;\n  background-color: lightblue;\n  border-radius: 1em;\n}", ""]);
+exports.push([module.i, ".post-container[data-v-57a632a8] {\n  width: 1200px;\n  margin: 0 auto;\n  background-color: #aaa;\n  border-radius: 15px;\n  padding: 30px;\n  margin-top: 20px;\n}\n.post-container textarea[data-v-57a632a8] {\n  width: 100%;\n  margin-top: 15px;\n  margin-bottom: 15px;\n}\n.post-container h1[data-v-57a632a8] {\n  text-align: center;\n}\n.post-container .image[data-v-57a632a8] {\n  max-width: 100%;\n}\n.post-container .image img[data-v-57a632a8] {\n  max-width: 100%;\n  margin-top: 15px;\n  margin-bottom: 15px;\n}\n.post-container p[data-v-57a632a8] {\n  padding: 15px 0;\n}\n.post-container .categories[data-v-57a632a8] {\n  padding: 15px 0;\n}\n.post-container .tags[data-v-57a632a8] {\n  padding: 15px 0;\n}\n.post-container .tags ul[data-v-57a632a8] {\n  display: inline-flex;\n  list-style: none;\n  gap: 10px;\n}\n.post-container .tags ul .tag[data-v-57a632a8] {\n  padding: 5px;\n  background-color: lightblue;\n  border-radius: 1em;\n}\n.post-container .comment-sent[data-v-57a632a8] {\n  background-color: green;\n  color: white;\n  text-align: center;\n}", ""]);
 
 // exports
 
@@ -3859,7 +3965,7 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "post-container" }, [
-      _c("h3", [_vm._v(_vm._s(_vm.post.title))]),
+      _c("h1", [_vm._v(_vm._s(_vm.post.title))]),
       _vm._v(" "),
       _vm.post.image
         ? _c("div", { staticClass: "image" }, [
@@ -3879,24 +3985,36 @@ var render = function () {
           ])
         : _vm._e(),
       _vm._v(" "),
-      _vm.post.tags.length > 0
-        ? _c("div", { staticClass: "tags" }, [
-            _c("strong", [_vm._v("Tags: ")]),
-            _vm._v(" "),
-            _c(
-              "ul",
-              _vm._l(_vm.post.tags, function (tag, index) {
-                return _c("li", { key: index, staticClass: "tag" }, [
-                  _vm._v(_vm._s(tag.name) + " "),
-                ])
-              }),
-              0
-            ),
-          ])
-        : _vm._e(),
+      _c(
+        "div",
+        {
+          directives: [
+            {
+              name: "show",
+              rawName: "v-show",
+              value: _vm.postTags.length > 0,
+              expression: "postTags.length > 0",
+            },
+          ],
+          staticClass: "tags",
+        },
+        [
+          _c("strong", [_vm._v("Tags: ")]),
+          _vm._v(" "),
+          _c(
+            "ul",
+            _vm._l(_vm.postTags, function (tag) {
+              return _c("li", { key: tag.id, staticClass: "tag" }, [
+                _vm._v(_vm._s(tag.name) + " "),
+              ])
+            }),
+            0
+          ),
+        ]
+      ),
       _vm._v(" "),
       _c("div", [
-        _c("h3", [_vm._v("Commenti")]),
+        _c("h3", [_vm._v("Scrivi un commento")]),
         _vm._v(" "),
         _c(
           "form",
@@ -3961,10 +4079,58 @@ var render = function () {
                   },
                 },
               }),
+              _vm._v(" "),
+              _vm.formErrors.content
+                ? _c("div", [
+                    _c(
+                      "ul",
+                      _vm._l(_vm.formErrors.content, function (error, index) {
+                        return _c("li", { key: index }, [_vm._v(_vm._s(error))])
+                      }),
+                      0
+                    ),
+                  ])
+                : _vm._e(),
             ]),
             _vm._v(" "),
             _vm._m(0),
           ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "show",
+                rawName: "v-show",
+                value: _vm.commentSent,
+                expression: "commentSent",
+              },
+            ],
+            staticClass: "comment-sent",
+          },
+          [
+            _vm._v(
+              "\n                Commento aggiunto, in fase di approvazione!\n            "
+            ),
+          ]
+        ),
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c("h3", [_vm._v("Commenti")]),
+        _vm._v(" "),
+        _c(
+          "ul",
+          _vm._l(_vm.post.comments, function (comment) {
+            return _c("li", { key: comment.id }, [
+              _c("h4", [_vm._v(_vm._s(comment.name))]),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(comment.content))]),
+            ])
+          }),
+          0
         ),
       ]),
     ]),
@@ -19723,6 +19889,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue */ "./resources/js/guest/App.vue");
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./router */ "./resources/js/guest/router.js");
+// require('../bootstrap');
+
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -20201,7 +20369,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\ferdi\Desktop\progetti\EserciziAssegnatiLaravel\laravel-boolpress\resources\js\guest\front.js */"./resources/js/guest/front.js");
+module.exports = __webpack_require__(/*! C:\Users\ferdi\Desktop\boolpres\laravel-boolpress\resources\js\guest\front.js */"./resources/js/guest/front.js");
 
 
 /***/ })
